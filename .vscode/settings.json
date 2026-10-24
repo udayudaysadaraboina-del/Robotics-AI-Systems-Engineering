@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "C:/Robotics_HQ/Python_Vision_AI/ai_env/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "files.autoSave": "afterDelay"
+}

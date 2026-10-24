@@ -1,0 +1,7 @@
+**/ai_env/
+__pycache__/
+*.pyc
+*.exe
+*.o
+Media_Demo_Vault/*.mp4
+Media_Demo_Vault/*.mkv
