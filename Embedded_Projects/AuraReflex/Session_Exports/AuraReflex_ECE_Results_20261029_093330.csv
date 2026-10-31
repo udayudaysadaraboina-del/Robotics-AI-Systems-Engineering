@@ -1,0 +1,5 @@
+Stimulus_Type,Participant,Trial_1_ms,Trial_2_ms,Trial_3_ms,Average_Time_ms,Best_Time_ms,Std_Dev_ms
+LED,Participant 1,1465.47,1535.18,4335.11,2445.25,1465.47,1336.63
+LED,Participant 2,2514.63,3733.05,6493.04,4246.91,2514.63,1664.33
+BUZZER,Participant 1,1904.64,2544.09,1653.49,2034.07,1653.49,374.93
+BUZZER,Participant 2,4050.48,4865.48,5950.67,4955.54,4050.48,778.36

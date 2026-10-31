@@ -1,0 +1,5 @@
+Test_Modality,Participant,Trial_1_ms,Trial_2_ms,Trial_3_ms,Average_ms,Best_ms,StdDev_ms
+LED,Participant 1,7000.0,7000.0,7000.0,7000.0,7000.0,0.0
+LED,Participant 2,7000.0,7000.0,7000.0,7000.0,7000.0,0.0
+BUZZER,Participant 1,7000.0,7000.0,7000.0,7000.0,7000.0,0.0
+BUZZER,Participant 2,7000.0,7000.0,7000.0,7000.0,7000.0,0.0

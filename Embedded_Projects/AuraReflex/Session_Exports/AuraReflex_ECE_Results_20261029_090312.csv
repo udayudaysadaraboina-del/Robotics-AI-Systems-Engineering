@@ -1,0 +1,5 @@
+Stimulus_Type,Participant,Trial_1_ms,Trial_2_ms,Trial_3_ms,Average_Time_ms,Best_Time_ms,Std_Dev_ms
+LED,Participant 1,0.0,0.0,0.0,0.0,0.0,0.0
+LED,Participant 2,0.0,0.0,0.0,0.0,0.0,0.0
+BUZZER,Participant 1,0.0,0.0,0.0,0.0,0.0,0.0
+BUZZER,Participant 2,0.0,0.0,0.0,0.0,0.0,0.0
