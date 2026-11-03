@@ -10,8 +10,8 @@
 
 | Project | Technical Stack | Key Engineering Metrics | Project Code | Media & Demos |
 | :--- | :--- | :--- | :--- | :--- |
-| **1. Emergency Patient Monitoring & Fall Detection System** | Python, YOLOv8-Pose, OpenCV, ESP32, C++, UART | **96% Fall Accuracy**, **98% Occupancy Accuracy**, **<180 ms Alarm Latency** | [📂 Code & Docs](Embedded_Projects/Patient_Monitoring_System/) | [🎬 Video & IEEE Paper](Media_Demo_Vault/02_Patient_Monitor_Media/) |
-| **2. AuraReflex: Real-Time Dual-Channel Reaction Analyzer** | C++, PlatformIO, ESP32, Python, PySerial, Matplotlib | **Microsecond Edge Timing**, **5 ms Debounce Shield**, **270.17 ms Peak Reflex** | [📂 Code & Docs](Embedded_Projects/AuraReflex/) | [📊 Poster & Graphs](Media_Demo_Vault/01_AuraReflex_Media/) |
+| **1. Emergency Patient Monitoring & Fall Detection System** | Python, YOLOv8-Pose, OpenCV, ESP32, C++, UART | **96% Fall Accuracy**, **98% Occupancy Accuracy**, **<180 ms Alarm Latency** | [📂 Code & Docs](Embedded_Projects/Patient_Monitoring_System/) | [🎬 View Media Vault](Media_Demo_Vault/02_Patient_Monitor_Media/) |
+| **2. AuraReflex: Real-Time Dual-Channel Reaction Analyzer** | C++, PlatformIO, ESP32, Python, PySerial, Matplotlib | **Microsecond Edge Timing**, **5 ms Debounce Shield**, **270.17 ms Peak Reflex** | [📂 Code & Docs](Embedded_Projects/AuraReflex/) | [📊 View Media Vault](Media_Demo_Vault/01_AuraReflex_Media/) |
 
 ---
 
