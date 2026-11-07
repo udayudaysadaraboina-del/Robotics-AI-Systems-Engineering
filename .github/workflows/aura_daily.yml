@@ -1,0 +1,39 @@
+name: AURA-INTEL v3.0 Daily Briefing
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs automatically at 7:30 AM IST (02:00 UTC) every day
+  workflow_dispatch:    # Allows 1-click manual trigger from GitHub Actions tab
+
+jobs:
+  run-aura-intel:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install google-genai pydantic requests
+
+      - name: Run AURA-INTEL v3.0 Agent & Send Email
+        working-directory: ./AURA_Intel
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python agent.py
+
+      - name: Commit Updated 365-Day Memory & Briefings
+        run: |
+          git config user.name "AURA-INTEL Bot"
+          git config user.email "actions@github.com"
+          git add AURA_Intel/agent_memory.json AURA_Intel/daily_briefings/
+          git commit -m "chore(aura-intel): automated daily briefing update" || exit 0
+          git push
