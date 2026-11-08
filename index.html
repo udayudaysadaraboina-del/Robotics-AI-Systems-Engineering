@@ -3298,4 +3298,41 @@ fetch('./AURA_Intel/daily_briefings/intel_feed.json')
     document.getElementById('aura-intel-items').textContent = 'Autonomous feed initializing...';
   });
 </script>
+<!-- ==================== UDAY'S ENGINEERING PROJECTS SHOWCASE ==================== -->
+<div id="project-showcase" style="margin: 20px 0; padding: 20px; background: #0b0f14; border: 1px solid #26303a; border-left: 4px solid #5cc39b; border-radius: 8px; font-family: 'Segoe UI', Arial, sans-serif; color: #ece6da;">
+  <h3 style="color: #6cd3e0; margin-top: 0; font-size: 18px; letter-spacing: 0.5px;">🏆 Core Robotics & AI Engineering Projects</h3>
+  <p style="color: #9aa2ac; font-size: 13px; margin-bottom: 16px;">S3 B.Tech Robotics &amp; AI Portfolio Highlights • Amrita Vishwa Vidyapeetham</p>
+
+  <!-- Project 1: AuraReflex -->
+  <div style="background: #10151b; border: 1px solid #1c242e; padding: 14px; border-radius: 6px; margin-bottom: 12px;">
+    <h4 style="margin: 0 0 6px 0; color: #5cc39b; font-size: 15px;">⚡ AuraReflex — Real-Time Dual-Channel Reaction Analyzer</h4>
+    <p style="color: #c8c2b6; font-size: 12.5px; margin: 4px 0 8px 0; line-height: 1.4;">
+      ESP32 C++ interrupt-driven firmware utilizing <b>IRAM_ATTR ISRs</b> on GPIO 25/26 for microsecond-precision reaction timing, non-blocking state machine (`micros()`/`millis()`), and 115200 baud serial telemetry paired with a multi-threaded Python <b>CustomTkinter</b> dark-mode analytics dashboard.
+    </p>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace;">C++ (ESP32)</span>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace; margin-left: 6px;">Python CustomTkinter</span>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace; margin-left: 6px;">Hardware ISRs</span>
+  </div>
+
+  <!-- Project 2: Emergency Patient Monitoring -->
+  <div style="background: #10151b; border: 1px solid #1c242e; padding: 14px; border-radius: 6px; margin-bottom: 12px;">
+    <h4 style="margin: 0 0 6px 0; color: #5cc39b; font-size: 15px;">🏥 Emergency Patient Monitoring &amp; Fall Detection System</h4>
+    <p style="color: #c8c2b6; font-size: 12.5px; margin: 4px 0 8px 0; line-height: 1.4;">
+      Computer vision pipeline utilizing <b>YOLOv8-Pose</b> (17-keypoint skeletal tracking) and OpenCV bed ROI polygon calibration achieving 96% fall detection accuracy, connected to an ESP32 UART hardware alarm bench with &lt;180ms end-to-end latency.
+    </p>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace;">YOLOv8-Pose</span>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace; margin-left: 6px;">OpenCV</span>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace; margin-left: 6px;">UART Hardware Alarm</span>
+  </div>
+
+  <!-- Project 3: 3-DOF Kinematics -->
+  <div style="background: #10151b; border: 1px solid #1c242e; padding: 14px; border-radius: 6px;">
+    <h4 style="margin: 0 0 6px 0; color: #5cc39b; font-size: 15px;">🦾 3-DOF Robotic Arm Kinematics &amp; WebGL Control</h4>
+    <p style="color: #c8c2b6; font-size: 12.5px; margin: 4px 0 8px 0; line-height: 1.4;">
+      Denavit-Hartenberg (D-H) matrix transformation simulation for robotic manipulator kinematics paired with an interactive <b>Three.js WebGL</b> 3D mission control interface.
+    </p>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace;">Denavit-Hartenberg</span>
+    <span style="background: #06080b; color: #6cd3e0; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-family: Consolas, monospace; margin-left: 6px;">Three.js WebGL</span>
+  </div>
+</div>
 </body></html>
