@@ -1,6 +1,98 @@
 [
   {
     "date": "November 08, 2026",
+    "day_number": 7,
+    "robotics_radar": [
+      {
+        "headline": "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
+        "company_or_lab": "Big Tech Robotics",
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObVZvM2ltdDFRcEFzdHJaSkhuTHl1eTlReVlQaGtyX2dyS0JJeHh4b2xESXZJeUx1Vjd5VUYxYzVaTnlMaXJFcl8zWGtOWXliRW1VbmhwN2xMTFo2OGctRDVCVDdXTzNwV1pPeldGZkdEMW4xeUJSVFVNSEN6TkRRSDladnRBWW41ZWlmalBfNURsaGwyNEl3aEJB?oc=5",
+        "engineering_breakdown": [
+          "Live physical AI / robotics update captured via AURA-INTEL RSS recon.",
+          "Demonstrates industry shift toward low-latency edge perception and deterministic actuation."
+        ],
+        "relevance_to_uday": "Directly complements your YOLOv8-Pose vision pipeline and ESP32 hardware interrupt (ISR) architecture."
+      },
+      {
+        "headline": "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
+        "company_or_lab": "Big Tech Robotics",
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWV9tS0FFbzc4ZEs5T2ZnZlVGdzFGMkYySENHdExnWDQ2TGtiQVhreWZnY29uRUNjbFpmS3FvSUtxeDF0cGtaSHpERGN3R1RnYkZxMkpsWGNZTjI1TDQxWGlSYy1naUxqbE0yaW8teElKZGZxd3poZXEweUlWbk8wV2lnelJlQkFJS3ZrVy03TUVMMzk1aHAySXBPWEJBRkpyOVNOc0NJQjh3T0NaZDVRNmJuVmU0d0hCOEpBVnZB?oc=5",
+        "engineering_breakdown": [
+          "Live physical AI / robotics update captured via AURA-INTEL RSS recon.",
+          "Demonstrates industry shift toward low-latency edge perception and deterministic actuation."
+        ],
+        "relevance_to_uday": "Directly complements your YOLOv8-Pose vision pipeline and ESP32 hardware interrupt (ISR) architecture."
+      },
+      {
+        "headline": "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
+        "company_or_lab": "Big Tech Robotics",
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNWxmNERuUTlMOVN3aVNpTzk3M0hFcWxYMGFsUmFTODBMaWlJUEYyVlhUZ0VIRGNSWTJpbGpTSUt4MzdXTnBEZUxYcEI4VlRPQkRkRE84c25ZaWpHSmhrMVZ3SWZvUnljcW1SNjZLZUJvM2JZUTFVaHBWWEdjVnQ2WTRFZTAzdWR4TlE?oc=5",
+        "engineering_breakdown": [
+          "Live physical AI / robotics update captured via AURA-INTEL RSS recon.",
+          "Demonstrates industry shift toward low-latency edge perception and deterministic actuation."
+        ],
+        "relevance_to_uday": "Directly complements your YOLOv8-Pose vision pipeline and ESP32 hardware interrupt (ISR) architecture."
+      }
+    ],
+    "linkedin_post_draft": "As Physical AI moves from cloud simulations to edge hardware, the real bottleneck isn't just model size\u2014it's deterministic latency.\n\nWhile building AuraReflex (an ESP32 C++ interrupt-driven reaction analyzer) and my YOLOv8-Pose patient monitoring bench, switching from software polling to hardware ISRs (IRAM_ATTR) and structured 115200-baud UART telemetry made all the difference in sub-180ms response times.\n\nHow are you bridging Python Edge-AI vision with microcontroller firmware in your robotics builds?\n\n#Robotics #EmbeddedSystems #EdgeAI #ESP32 #ComputerVision #PhysicalAI",
+    "matched_internships": [
+      {
+        "role_title": "Robotics & Embedded Firmware Intern",
+        "company_name": "CynLr (Cybernetics Laboratory)",
+        "location": "Bengaluru, India",
+        "apply_url": "https://www.linkedin.com/jobs/search/?keywords=CynLr+Robotics+Intern&location=India",
+        "ats_match_score": 94,
+        "lead_project_to_pitch": "Emergency Patient Monitoring & Fall Detection System",
+        "why_it_matches": "CynLr builds visual object intelligence for robotic arms, matching your YOLOv8-Pose + OpenCV + 3-DOF kinematics stack.",
+        "tailored_resume_bullet": "Engineered a real-time YOLOv8-Pose & OpenCV visual perception pipeline integrated with an ESP32 UART hardware controller (<180ms latency, 96% detection accuracy).",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CynLr+Robotics+Engineer",
+        "cold_dm_template": "Hi! I'm an S3 Robotics & AI student at Amrita building YOLOv8-Pose + ESP32 embedded vision systems. Loved CynLr's visual robotics work\u2014would love to connect! Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "Open the Direct Apply Link and filter for active internship/research openings at CynLr.",
+          "Include the tailored YOLOv8-Pose + ESP32 resume bullet at the top of your projects section.",
+          "Send the Cold LinkedIn DM to a Robotics Engineer on their team with your live 3D WebGL portfolio link."
+        ]
+      },
+      {
+        "role_title": "Embedded Systems & Edge-AI Intern",
+        "company_name": "Addverb Technologies",
+        "location": "Noida / Bengaluru, India",
+        "apply_url": "https://www.linkedin.com/jobs/search/?keywords=Addverb+Embedded+Robotics+Intern&location=India",
+        "ats_match_score": 91,
+        "lead_project_to_pitch": "AuraReflex \u2014 Real-Time Dual-Channel Reaction Analyzer",
+        "why_it_matches": "Addverb's industrial warehouse robots rely on deterministic C++ firmware, hardware interrupts, and serial telemetry.",
+        "tailored_resume_bullet": "Developed interrupt-driven ESP32 C++ firmware (IRAM_ATTR ISRs, microsecond non-blocking state machine) paired with a multi-threaded Python CustomTkinter telemetry dashboard at 115200 baud.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Addverb+Embedded+Systems",
+        "cold_dm_template": "Hi! I'm an S3 B.Tech Robotics & AI student specializing in interrupt-driven ESP32 C++ firmware and Edge-AI. Would love to connect and learn about Embedded internships at Addverb!",
+        "step_by_step_apply_guide": [
+          "Click the Direct Apply Link to view Addverb's current university internship listings.",
+          "Highlight your AuraReflex C++ ISR state-machine architecture in your application.",
+          "Connect with an Embedded Team Lead using the LinkedIn People Search link."
+        ]
+      },
+      {
+        "role_title": "Computer Vision & Autonomous Systems Intern",
+        "company_name": "Genrobotics / Mowito",
+        "location": "Thiruvananthapuram / Kochi / Bengaluru",
+        "apply_url": "https://www.linkedin.com/jobs/search/?keywords=Genrobotics+OR+Mowito+Robotics+Intern&location=India",
+        "ats_match_score": 89,
+        "lead_project_to_pitch": "Emergency Patient Monitoring & Fall Detection System",
+        "why_it_matches": "Kerala and Bengaluru robotics companies actively recruit Amrita B.Tech students with hands-on C++, OpenCV, and kinematics portfolios.",
+        "tailored_resume_bullet": "Built a 3-DOF Denavit-Hartenberg kinematic simulator and real-time OpenCV/YOLOv8-Pose vision-to-hardware actuation bench.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Genrobotics+Robotics+Engineer",
+        "cold_dm_template": "Hi! I'm an S3 Robotics & AI student at Amrita (Amritapuri) building embedded C++ & YOLOv8-Pose robotic systems. Would love to connect regarding internship opportunities!",
+        "step_by_step_apply_guide": [
+          "Check the LinkedIn job search link and Genrobotics career page for Kerala-based internships.",
+          "Attach your live GitHub Pages 3D portfolio URL in the application form.",
+          "Message an Amrita alumni or engineer at Genrobotics using the cold DM template."
+        ]
+      }
+    ],
+    "skill_gap_radar": "Trending Skill: ROS 2 (Humble/Jazzy) micro-ROS on ESP32. Weekend 2-Hour Micro-Build: Add a `ros2_serial_bridge.py` node to your AuraReflex repository that publishes reaction-time serial packets (`RESULT:1,245`) as a standard `std_msgs/Int32` ROS 2 topic.",
+    "daily_networking_action": "Send 2 connection requests to Robotics Engineers at CynLr and Genrobotics using the Cold LinkedIn DM templates in today's email."
+  },
+  {
+    "date": "November 08, 2026",
     "day_number": 6,
     "robotics_radar": [
       {
