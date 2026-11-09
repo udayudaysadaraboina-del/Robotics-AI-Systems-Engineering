@@ -1,9 +1,12 @@
 {
-  "days_completed": 7,
+  "days_completed": 8,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "dec0a2353630b81edf376591b3b0e13e",
+    "a8868f8a127e23e37a3d818b9fa8951c",
+    "6b5ec96d4e463b3f6cf3da74d99a2d2b",
+    "19d7fbb0b72ba90e4f52583e85cbe959",
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "19d7fbb0b72ba90e4f52583e85cbe959",
@@ -44,12 +47,18 @@
     "48d3fd42eaf06fd7e6eb15a516af08ca",
     "1f0da542f0c4bfca80ccfcce43ced5e1",
     "f57473e739ea6a70c6f2c71f5a6bc1af",
-    "48d3fd42eaf06fd7e6eb15a516af08ca"
+    "48d3fd42eaf06fd7e6eb15a516af08ca",
+    "1f0da542f0c4bfca80ccfcce43ced5e1",
+    "7ba9cd245c4e963bec9b52e9198140cc",
+    "f57473e739ea6a70c6f2c71f5a6bc1af"
   ],
   "recent_companies": [
     "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
     "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
     "Mowito / Genrobotics (Computer Vision & Autonomous Systems Intern)",
+    "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
+    "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
+    "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
     "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
     "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
@@ -90,6 +99,9 @@
     "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
     "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
-    "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering"
+    "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
+    "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
+    "Atlas gets more precise ... deftly pulls out a finger-sized nut and assembles it - \ub9e4\uc77c\uacbd\uc81c",
+    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer"
   ]
 }
