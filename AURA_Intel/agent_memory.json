@@ -1,9 +1,12 @@
 {
-  "days_completed": 11,
+  "days_completed": 12,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "dec0a2353630b81edf376591b3b0e13e",
+    "a8868f8a127e23e37a3d818b9fa8951c",
+    "6b5ec96d4e463b3f6cf3da74d99a2d2b",
+    "19d7fbb0b72ba90e4f52583e85cbe959",
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "19d7fbb0b72ba90e4f52583e85cbe959",
@@ -68,12 +71,18 @@
     "e968c9c4d3d8dc3e0cdbe92701cd2168",
     "6c83f8316b325f3d45100b2bd8daff33",
     "9f5c69ffc444e08a6a81b3e76a637c5f",
-    "f57473e739ea6a70c6f2c71f5a6bc1af"
+    "f57473e739ea6a70c6f2c71f5a6bc1af",
+    "6c83f8316b325f3d45100b2bd8daff33",
+    "b4f4df0a886c830511321a732b5dd355",
+    "9f5c69ffc444e08a6a81b3e76a637c5f"
   ],
   "recent_companies": [
     "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
     "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
     "Mowito / Genrobotics (Computer Vision & Autonomous Systems Intern)",
+    "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
+    "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
+    "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
     "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
     "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
@@ -138,6 +147,9 @@
     "Boston Dynamics\u2019 Atlas takes on complex factory tasks with AI - \ub9e4\uc77c\uacbd\uc81c",
     "Nvidia wants the robotics full-stack. What happens to humanoids? - Fierce Sensors",
     "Boston Dynamics' Atlas robot performs a 360-degree jump on wheels - Interesting Engineering",
-    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer"
+    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
+    "Nvidia wants the robotics full-stack. What happens to humanoids? - Fierce Sensors",
+    "Physical AI depends on sensor redundancy. Does it need Nvidia redundancy too? - Fierce Sensors",
+    "Boston Dynamics' Atlas robot performs a 360-degree jump on wheels - Interesting Engineering"
   ]
 }
