@@ -1,9 +1,12 @@
 {
-  "days_completed": 15,
+  "days_completed": 16,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "dec0a2353630b81edf376591b3b0e13e",
+    "a8868f8a127e23e37a3d818b9fa8951c",
+    "6b5ec96d4e463b3f6cf3da74d99a2d2b",
+    "19d7fbb0b72ba90e4f52583e85cbe959",
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "19d7fbb0b72ba90e4f52583e85cbe959",
@@ -92,7 +95,10 @@
     "3955b91aad02830bdf54b09b53d42c3f",
     "f57473e739ea6a70c6f2c71f5a6bc1af",
     "3955b91aad02830bdf54b09b53d42c3f",
-    "1f3eabce84f0b1b6cf4379db1790f665"
+    "1f3eabce84f0b1b6cf4379db1790f665",
+    "6c83f8316b325f3d45100b2bd8daff33",
+    "eea75a4cffce7b3598b5d494a6fdc96f",
+    "b4f4df0a886c830511321a732b5dd355"
   ],
   "recent_companies": [
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
@@ -151,9 +157,6 @@
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
     "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
-    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
-    "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
-    "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
     "Atlas gets more precise ... deftly pulls out a finger-sized nut and assembles it - \ub9e4\uc77c\uacbd\uc81c",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "NVIDIA's GR00T 2 lets robots learn tasks from humans, not machines - Interesting Engineering",
@@ -176,6 +179,9 @@
     "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots - Boston Dynamics",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots - Boston Dynamics",
-    "Hyundai Motor Group plans to deploy humanoid robots at US factory from 2028 - Reuters"
+    "Hyundai Motor Group plans to deploy humanoid robots at US factory from 2028 - Reuters",
+    "Nvidia wants the robotics full-stack. What happens to humanoids? - Fierce Sensors",
+    "Nvidia unveils GROOT N2 to cut training and boost humanoid intelligence - Chosunbiz",
+    "Physical AI depends on sensor redundancy. Does it need Nvidia redundancy too? - Fierce Sensors"
   ]
 }
