@@ -1,9 +1,12 @@
 {
-  "days_completed": 17,
+  "days_completed": 18,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "dec0a2353630b81edf376591b3b0e13e",
+    "a8868f8a127e23e37a3d818b9fa8951c",
+    "6b5ec96d4e463b3f6cf3da74d99a2d2b",
+    "19d7fbb0b72ba90e4f52583e85cbe959",
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "19d7fbb0b72ba90e4f52583e85cbe959",
@@ -104,7 +107,10 @@
     "b4f4df0a886c830511321a732b5dd355",
     "6c83f8316b325f3d45100b2bd8daff33",
     "b4f4df0a886c830511321a732b5dd355",
-    "6af4fe4196dd9d1afab0aa5966fae5b4"
+    "6af4fe4196dd9d1afab0aa5966fae5b4",
+    "6c83f8316b325f3d45100b2bd8daff33",
+    "6af4fe4196dd9d1afab0aa5966fae5b4",
+    "c09eb5653f5bcf4d69c398f9de594d11"
   ],
   "recent_companies": [
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
@@ -157,9 +163,6 @@
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
     "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
-    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
-    "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
-    "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
     "Atlas gets more precise ... deftly pulls out a finger-sized nut and assembles it - \ub9e4\uc77c\uacbd\uc81c",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "NVIDIA's GR00T 2 lets robots learn tasks from humans, not machines - Interesting Engineering",
@@ -188,6 +191,9 @@
     "Physical AI depends on sensor redundancy. Does it need Nvidia redundancy too? - Fierce Sensors",
     "Nvidia wants the robotics full-stack. What happens to humanoids? - Fierce Sensors",
     "Physical AI depends on sensor redundancy. Does it need Nvidia redundancy too? - Fierce Sensors",
-    "Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - \uc0ac\uc774\uc5b8\uc2a4\ubaa8\ub2c8\ud130"
+    "Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - \uc0ac\uc774\uc5b8\uc2a4\ubaa8\ub2c8\ud130",
+    "Nvidia wants the robotics full-stack. What happens to humanoids? - Fierce Sensors",
+    "Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - \uc0ac\uc774\uc5b8\uc2a4\ubaa8\ub2c8\ud130",
+    "NVIDIA works with global robotics leaders to make physical AI a reality - The Robot Report"
   ]
 }
