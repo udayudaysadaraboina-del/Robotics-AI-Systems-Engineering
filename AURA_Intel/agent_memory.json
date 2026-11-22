@@ -1,9 +1,12 @@
 {
-  "days_completed": 20,
+  "days_completed": 21,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "dec0a2353630b81edf376591b3b0e13e",
+    "a8868f8a127e23e37a3d818b9fa8951c",
+    "6b5ec96d4e463b3f6cf3da74d99a2d2b",
+    "19d7fbb0b72ba90e4f52583e85cbe959",
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
     "19d7fbb0b72ba90e4f52583e85cbe959",
@@ -122,7 +125,10 @@
     "988bd1334a24b8c2dc9029dbf6e622c8",
     "3934edc930847c7aa181d0af070ca419",
     "c09eb5653f5bcf4d69c398f9de594d11",
-    "6af4fe4196dd9d1afab0aa5966fae5b4"
+    "6af4fe4196dd9d1afab0aa5966fae5b4",
+    "3934edc930847c7aa181d0af070ca419",
+    "3874290c6a8521ed3f21d706a49f7e89",
+    "c09eb5653f5bcf4d69c398f9de594d11"
   ],
   "recent_companies": [
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
@@ -167,9 +173,6 @@
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)"
   ],
   "recent_headlines": [
-    "NVIDIA launches Unitree-based humanoid robot system for research - Interesting Engineering",
-    "Nvidia-Backed Agility Robotics Goes Public at $2.5B in Humanoid Robot Milestone - TechRepublic",
-    "Atlas gets more precise ... deftly pulls out a finger-sized nut and assembles it - \ub9e4\uc77c\uacbd\uc81c",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "NVIDIA's GR00T 2 lets robots learn tasks from humans, not machines - Interesting Engineering",
     "Boston Dynamics\u2019 Atlas takes on complex factory tasks with AI - \ub9e4\uc77c\uacbd\uc81c",
@@ -206,6 +209,9 @@
     "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
     "The Future of Factory AI Is Being Shaped by Siemens and NVIDIA and Explored by BMA Conventions in Dallas, TX - Robotics Tomorrow",
     "NVIDIA works with global robotics leaders to make physical AI a reality - The Robot Report",
-    "Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - \uc0ac\uc774\uc5b8\uc2a4\ubaa8\ub2c8\ud130"
+    "Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - \uc0ac\uc774\uc5b8\uc2a4\ubaa8\ub2c8\ud130",
+    "The Future of Factory AI Is Being Shaped by Siemens and NVIDIA and Explored by BMA Conventions in Dallas, TX - Robotics Tomorrow",
+    "Saturn Dynamics develops physics-based world model to improve robot training - Robotics & Automation News",
+    "NVIDIA works with global robotics leaders to make physical AI a reality - The Robot Report"
   ]
 }
