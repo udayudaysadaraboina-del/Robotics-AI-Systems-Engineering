@@ -1,0 +1,24 @@
+name: C++20 Systems & GoogleTest CI
+
+on:
+  push:
+    paths:
+      - 'cpp_systems/**'
+      - '.github/workflows/cpp_ci.yml'
+  pull_request:
+    paths:
+      - 'cpp_systems/**'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install C++20 Toolchain & GoogleTest
+        run: sudo apt-get update && sudo apt-get install -y cmake ninja-build libgtest-dev
+      - name: Configure, Build & Run ASan/UBSan Tests
+        working-directory: cpp_systems/00_setup_verify
+        run: |
+          cmake -S . -B build -G Ninja
+          cmake --build build
+          ctest --test-dir build --output-on-failure

@@ -5,3 +5,7 @@ __pycache__/
 *.o
 Media_Demo_Vault/*.mp4
 Media_Demo_Vault/*.mkv
+
+# C++ CMake Builds
+build/
+**/build/
