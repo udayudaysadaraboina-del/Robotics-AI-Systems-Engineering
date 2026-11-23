@@ -1,6 +1,6 @@
 # AURA-DEV OS — Mentorship & Engineering Guardrails
-Candidate: S. Uday Kumar | S3 B.Tech Robotics & AI (Amrita) | Starting Level: Ground-Zero C++/Systems
-Environment: WSL2 Ubuntu 24.04 LTS + NVIDIA RTX 5050 (8 GB) + ESP32
+Candidate: S. Uday Kumar | S3 B.Tech Robotics & AI (Amrita) | Starting Level: Starter C++/Python
+Environment: WSL2 Ubuntu 24.04 LTS + NVIDIA RTX Laptop + ESP32
 Target: Tier-1 Robotics & Edge-AI Systems (NVIDIA, Google DeepMind, Microsoft, Amazon, Boston Dynamics)
 
 ## STRICT RULES (NEVER VIOLATE)
