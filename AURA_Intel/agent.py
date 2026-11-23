@@ -4,6 +4,7 @@ import json
 import os
 import re
 import smtplib
+import time
 import xml.etree.ElementTree as ET
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -112,10 +113,10 @@ def get_safe_flash_models(client: genai.Client) -> list[str]:
         pass
 
     final_list = []
-    for c in preferred + discovered:
+    for c in sorted(discovered, reverse=True) + preferred:
         if c not in final_list:
             final_list.append(c)
-    return final_list[:4]
+    return final_list[:6]
 
 
 # ==================== 5. PERSISTENT 365-DAY MEMORY ====================
@@ -330,7 +331,16 @@ def run_aura_intel_pipeline():
 
     # Channel C: Rich Dark-Mode HTML Email Delivery
     if GMAIL_USER and GMAIL_APP_PASSWORD:
-        send_html_email(report_data)
+        for attempt in range(1, 4):
+            try:
+                send_html_email(report_data)
+                break
+            except Exception as mail_err:
+                print(f"[WARN] Email attempt {attempt}/3 failed: {mail_err}")
+                if attempt < 3:
+                    time.sleep(5)
+                else:
+                    print("[WARN] Email skipped after 3 attempts; archive & radar feed preserved.")
     else:
         print("[INFO] GMAIL_USER / GMAIL_APP_PASSWORD not set yet. Skipping email dispatch.")
 
