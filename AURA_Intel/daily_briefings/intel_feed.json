@@ -1,5 +1,103 @@
 [
   {
+    "date": "November 24, 2026",
+    "robotics_radar": [
+      {
+        "headline": "Siemens and NVIDIA Partner to Drive Factory AI and Industrial Metaverse",
+        "company_or_lab": "Siemens / NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZXowLWhBdFlNYVhpNXpCWDRkbVRKY09waHdpMlJoVE9kOHFWY05RMjVDbHZWbGJ0eE9Ha0RiS0hpMzltSkxocW9adWpwenNVVWRULTd6MG5Ob1NrUnZhZDBpenZyNXVZQ2hSNHhXRmdPUVpjdG16M0JYRHFkUEVCb1lBb19WMjhkdlpuaThvYU1lNGRncktzblBtRkwyMTh4d1BBc19iVWxpWXllQ1drZVJZaHpiZjkxMlJWcDZ2Z1NtWUFkWnhuTlVqMnhWSFRST3BKdWhBa0ZGWXhqOGgwU3VIVUN6aVJ0VldoRGJOUklnRFBMbEE?oc=5",
+        "engineering_breakdown": [
+          "Integration of NVIDIA Omniverse libraries into Siemens Xcelerator to enable real-time digital twin physics simulations.",
+          "Edge-to-cloud synchronization for automated industrial robot path generation and vision-guided manipulation.",
+          "Zero-latency hardware-in-the-loop (HIL) testing for shop-floor autonomous mobile robots."
+        ],
+        "relevance_to_uday": "Highlights how edge hardware and low-latency control loops interface with digital twin simulation environments, directly aligning with hardware-in-the-loop testing principles."
+      },
+      {
+        "headline": "NVIDIA Collaborates with Global Robotics Leaders to Accelerate Physical AI",
+        "company_or_lab": "NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEU2M0t6WXozNUZQSF9YNTJjY1pfWkdNYTJ5SGJFYWhhZ3JqQURDc2YwVkU0LUY3UGppMUQ4X3dvWTNBQ3hOc1hYQmwxeU1aVzVQeUgxZWlWZzE0OHNsYUprOUNWSFEzMjhiTGY5OVowZzBpVlFWckJTM0xDR2s2QWhZUXpaT1ZHaGZvaXN2T0VXQ2J4QnJOb09VOGNsaGFYVUE?oc=5",
+        "engineering_breakdown": [
+          "Unified deployment pipelines using Isaac ROS and Jetson Thor for real-time perception and motion planning.",
+          "End-to-end foundation models for spatial intelligence, processing high-frame-rate computer vision pipelines.",
+          "Deterministic latency optimization across heterogeneous multi-core architectures."
+        ],
+        "relevance_to_uday": "Validates the industry shift toward combining deep learning models (YOLOv8) with embedded real-time compute platforms."
+      },
+      {
+        "headline": "Boston Dynamics Expands Collaboration with NVIDIA for Humanoid Robot Perception",
+        "company_or_lab": "Boston Dynamics / NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkhjOG5HazEwY1FCQzJvR2xDVmRtUy01aUtOVUlMakpILWM5YkMxOXNpRWVub3ZEZXRNbWZtWTZNQmdfbldWUFJ4VzZQREZOSy1FVGtXYkNxZXYzcFhxMHYxQ29zVTNhOXBsSEhnUnMtQnVBRW5uMDNxTjhYemRLd0xiSFZ4dXVTRlE?oc=5",
+        "engineering_breakdown": [
+          "Coupling real-time dynamic balancing ISR controllers with accelerated vision models.",
+          "Sensor fusion combining high-frequency IMU telemetry with camera-based pose estimation.",
+          "Sub-millisecond dynamic motor command adjustments derived from visual spatial feedback."
+        ],
+        "relevance_to_uday": "Directly mirrors Uday's dual-tier system architecture: sub-millisecond ESP32 interrupt response handling coupled with vision-based state estimation."
+      }
+    ],
+    "linkedin_post_draft": "Bridging high-level vision AI with microsecond hardware response is where true physical AI happens.\n\nWhile industrial trends move toward massive digital twins (like NVIDIA Omniverse & Siemens Xcelerator), real-world reliability still hinges on micro-level hardware control.\n\nIn my project AuraReflex, I focused on sub-millisecond latency using ESP32 C++ Interrupt Service Routines (ISRs) to ensure critical sensor events are never missed by thread scheduling overhead. Pairing this low-level deterministic response with OpenCV and YOLOv8-Pose for high-level monitoring creates a robust two-tier architecture:\n1. Hardware Tier: Real-time ISR execution for safety and instant response.\n2. Perception Tier: Edge computer vision for contextual spatial awareness.\n\nCheck out my open-source robotics implementations: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/\n\n#Robotics #EmbeddedSystems #ESP32 #ComputerVision #EdgeAI #PhysicalAI #Engineering",
+    "matched_internships": [
+      {
+        "role_title": "Autonomous Systems & Edge-AI Intern",
+        "company_name": "Ati Motors",
+        "location": "Bengaluru, India (Hybrid)",
+        "apply_url": "https://www.atimotors.com/careers",
+        "ats_match_score": 92,
+        "lead_project_to_pitch": "Emergency Patient Monitoring System (YOLOv8-Pose + OpenCV)",
+        "why_it_matches": "Ati Motors builds autonomous mobile robots requiring edge computer vision pipelines and real-time spatial awareness. Uday's OpenCV and YOLOv8 experience fits their perception deployment stack.",
+        "tailored_resume_bullet": "Engineered real-time OpenCV & YOLOv8-Pose perception pipeline integrated with CustomTkinter GUI for sub-50ms multi-person pose tracking and anomaly alert generation.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Ati%20Motors%20Robotics%20Recruiter",
+        "cold_dm_template": "Hi [Name], I'm Uday, S3 Robotics & AI student building ESP32 ISR control loops (AuraReflex) & YOLOv8 pose models. Loved Ati Motors' AMR work. I'd love to contribute to your edge perception team. Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "Visit Ati Motors careers page and filter for autonomous software or hardware internships.",
+          "Submit resume highlighting OpenCV, YOLOv8-Pose, and C++ embedded systems experience.",
+          "Link GitHub repo 'Robotics_HQ' directly under the project section.",
+          "Send the tailored Cold DM to lead robotics engineers at Ati Motors."
+        ]
+      },
+      {
+        "role_title": "Embedded Firmware Engineering Intern",
+        "company_name": "GreyOrange",
+        "location": "Gurugram, India (Hybrid)",
+        "apply_url": "https://www.greyorange.com/careers",
+        "ats_match_score": 89,
+        "lead_project_to_pitch": "AuraReflex (ESP32 C++ Low-Latency ISR Controller)",
+        "why_it_matches": "GreyOrange builds warehouse automation robots relying on robust C++ microcontrollers and real-time execution. Uday's ESP32 ISR specialization matches their firmware requirements.",
+        "tailored_resume_bullet": "Developed low-latency C++ firmware for ESP32 utilizing hardware ISRs, achieving sub-millisecond GPIO response times for safety-critical robotic sensor inputs.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=GreyOrange%20Firmware%20Engineering%20Manager",
+        "cold_dm_template": "Hi [Name], S3 Robotics student here. I designed real-time ESP32 ISR drivers & 3-DOF D-H kinematics pipelines for latency-critical embedded systems. Keen to intern with GreyOrange's firmware team. Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "Locate Embedded Engineering openings on GreyOrange portal.",
+          "Tailor resume focusing on ESP32, C++ ISRs, and hardware timing optimization.",
+          "Attach portfolio link highlighting interactive 3-DOF D-H kinematics visualizer.",
+          "Follow up via LinkedIn with target Firmware Engineering Manager."
+        ]
+      },
+      {
+        "role_title": "Computer Vision & Embedded Systems Intern",
+        "company_name": "Niqo Robotics",
+        "location": "Bengaluru, India (On-site)",
+        "apply_url": "https://www.niqorobotics.com/careers",
+        "ats_match_score": 87,
+        "lead_project_to_pitch": "Emergency Patient Monitoring & 3-DOF D-H Kinematics",
+        "why_it_matches": "Niqo Robotics relies on edge vision cameras and embedded compute units mounted on mobile sprayers. Uday's combination of OpenCV vision and microcontrollers is directly relevant.",
+        "tailored_resume_bullet": "Implemented edge-focused computer vision algorithms using OpenCV and YOLOv8 for real-time target detection and spatial coordinate mapping.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Niqo%20Robotics%20Computer%20Vision%20Lead",
+        "cold_dm_template": "Hi [Name], I build OpenCV/YOLOv8 pose tracking & CustomTkinter monitoring dashboards. Inspired by Niqo Robotics' ag-tech edge vision! Would love to explore embedded vision intern opportunities. Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "Open Niqo Robotics careers tab and apply for Computer Vision / Systems Engineering roles.",
+          "Highlight experience in real-time frame processing and lightweight neural net deployment.",
+          "Provide portfolio URL demonstrating live Python GUI integrations.",
+          "Directly message the Lead Computer Vision Engineer via LinkedIn."
+        ]
+      }
+    ],
+    "skill_gap_radar": "Targeting ROS2 Micro-XRCE-DDS middleware integration on ESP32 will bridge Uday's current bare-metal/ISR micro-controller code directly into industrial ROS2 robot networks, making his stack instantly compatible with enterprise AMR architectures.",
+    "daily_networking_action": "Reach out to 2 Firmware Engineers at GreyOrange and 1 Computer Vision Lead at Ati Motors using the provided cold DM templates. Share the AuraReflex repository link to showcase microsecond ISR responsiveness.",
+    "day_number": 23
+  },
+  {
     "date": "November 23, 2026",
     "day_number": 22,
     "robotics_radar": [
