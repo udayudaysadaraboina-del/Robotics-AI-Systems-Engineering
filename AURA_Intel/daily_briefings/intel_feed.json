@@ -1,5 +1,97 @@
 [
   {
+    "date": "November 25, 2026",
+    "robotics_radar": [
+      {
+        "headline": "NVIDIA Leads Humanoid Robot AI Accelerator Market as Qualcomm, Intel, Tesla, Xpeng Step Up Competition",
+        "company_or_lab": "Counterpoint Research / NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM09NNUY1OWhkZElHbm1TcnBSdTdXTlhsQ21NTFJwd1lqMkI2c2sxOHVSVkZ6Z0RUYXBIUnQ5Ukk0S3ZpUmJSLXJBYjNxcjBzZGNhMWxwZXlRc1NRNW1FeTJqSF95TXY4TDNSU2JDWmhFeTNXRE1WXzU0NlIycFZTano0VzVXRlR0VENsVzFHWklhbEZlN3FZcDhB?oc=5",
+        "engineering_breakdown": [
+          "Humanoid platforms require real-time execution of multimodal foundation models alongside strict low-latency motor control loops.",
+          "Edge accelerators leverage dedicated NPU/GPU pipelines to sustain high-framerate spatial sensor fusion while operating under sub-100W power envelopes."
+        ],
+        "relevance_to_uday": "Highlights the critical boundary between heavy vision/pose models and low-latency microcontrollers, mirroring Uday's split architecture between YOLOv8 vision pipelines and bare-metal ESP32 C++ ISR motor triggers."
+      },
+      {
+        "headline": "NVIDIA works with global robotics leaders to make physical AI a reality",
+        "company_or_lab": "NVIDIA / The Robot Report",
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEU2M0t6WXozNUZQSF9YNTJjY1pfWkdNYTJ5SGJFYWhhZ3JqQURDc2YwVkU0LUY3UGppMUQ4X3dvWTNBQ3hOc1hYQmwxeU1aVzVQeUgxZWlWZzE0OHNsYUprOUNWSFEzMjhiTGY5OVowZzBpVlFWckJTM0xDR2s2QWhZUXpaT1ZHaGZvaXN2T0VXQ2J4QnJOb09VOGNsaGFYVUE?oc=5",
+        "engineering_breakdown": [
+          "Physical AI architecture integrates digital twins (Isaac Sim) with zero-shot policy deployment into embedded robotics hardware.",
+          "Deterministic latency enforcement enables high-level trajectory planning policies to seamlessly interface with low-level torque/actuator controllers."
+        ],
+        "relevance_to_uday": "Validates the essential bridge between forward kinematics/planning math (D-H parameters) and deterministic embedded execution on hardware platforms."
+      },
+      {
+        "headline": "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots",
+        "company_or_lab": "Boston Dynamics",
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkhjOG5HazEwY1FCQzJvR2xDVmRtUy01aUtOVUlMakpILWM5YkMxOXNpRWVub3ZEZXRNbWZtWTZNQmdfbldWUFJ4VzZQREZOSy1FVGtXYkNxZXYzcFhxMHYxQ29zVTNhOXBsSEhnUnMtQnVBRW5uMDNxTjhYemRLd0xiSFZ4dXVTRlE?oc=5",
+        "engineering_breakdown": [
+          "Next-generation Atlas humanoids leverage onboard high-compute clusters for real-time visual-inertial odometry and semantic scene reasoning.",
+          "Actuation loops maintain microsecond-level determinism by isolating high-compute perception pipelines from joint control buses via real-time protocol bridges."
+        ],
+        "relevance_to_uday": "Reinforces why Uday's hands-on experience writing hardware interrupt routines (ISRs) on microcontrollers is the foundational baseline for real-world robotic systems deployment."
+      }
+    ],
+    "linkedin_post_draft": "Physical AI cannot exist without microsecond determinism at the edge.\n\nWith Boston Dynamics and NVIDIA deepening their collaboration for humanoid robots, the conversation is heavily centered on AI accelerators. But in real-world robotics engineering, inference speed is only half the battle.\n\nEven a sub-10ms neural net inference is useless if your actuator control loop experiences jitter or drops packets.\n\nWhile developing AuraReflex, I split the architecture:\n1. Edge Vision: Streamed OpenCV/YOLO processing for state classification.\n2. Deterministic Execution: Non-blocking ESP32 C++ ISRs handling millisecond-accurate reflex responses without RTOS task drift.\n\nHigh-compute foundation models provide the perception, but deterministic embedded firmware guarantees safety and physical precision.\n\nRobotics engineers: How do you decouple high-jitter inference from your hard real-time motor control loops?\n\n#Robotics #EmbeddedSystems #EdgeAI #PhysicalAI #ESP32 #ComputerVision",
+    "matched_internships": [
+      {
+        "role_title": "Edge AI & Embedded Robotics Intern",
+        "company_name": "Detect Technologies",
+        "location": "Chennai / Bengaluru, India",
+        "apply_url": "https://detecttechnologies.com/careers/",
+        "ats_match_score": 93,
+        "lead_project_to_pitch": "AuraReflex (ESP32 C++ ISRs + Sensor Interfacing)",
+        "why_it_matches": "Detect Technologies builds industrial monitoring systems and autonomous robotic inspection payloads requiring low-level firmware integration alongside computer vision pipelines.",
+        "tailored_resume_bullet": "Engineered low-latency C++ firmware routines on ESP32 microcontrollers using hardware ISRs to achieve deterministic <5ms sensor sampling and serial communication for automated edge telemetry.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Detect%20Technologies%20Engineering%20Lead",
+        "cold_dm_template": "Hi! I build deterministic ESP32 C++ ISR firmware and OpenCV/YOLO edge pipelines. Saw Detect's work in industrial autonomous inspection\u2014I'd love to contribute to your edge hardware-AI integration. Open to reviewing my portfolio?",
+        "step_by_step_apply_guide": [
+          "Submit resume via Detect Technologies Careers portal highlighting embedded C++ and edge telemetry.",
+          "Include portfolio link (https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/) in the website field.",
+          "Send cold DM to Detect Technologies Lead Embedded/Robotics engineers on LinkedIn."
+        ]
+      },
+      {
+        "role_title": "Autonomous Systems & Perception Intern",
+        "company_name": "Torc Robotics (India)",
+        "location": "Bengaluru, India / Hybrid",
+        "apply_url": "https://torcrobotics.com/careers/",
+        "ats_match_score": 89,
+        "lead_project_to_pitch": "Emergency Patient Monitoring (YOLOv8-Pose + OpenCV)",
+        "why_it_matches": "Torc Robotics requires robust spatial perception, real-time object tracking, and sensor data integration for commercial self-driving freight systems.",
+        "tailored_resume_bullet": "Developed a real-time pose estimation tracking pipeline deploying YOLOv8-Pose and OpenCV, calculating joint coordinate angles to flag threshold violations with <15ms latency.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Torc%20Robotics%20Recruiter%20Bengaluru",
+        "cold_dm_template": "Hi! I specialize in real-time edge perception using YOLOv8-Pose/OpenCV and low-level robotics kinematics. Given Torc's push for autonomous vehicle perception reliability, I'd value connecting about internship opportunities.",
+        "step_by_step_apply_guide": [
+          "Apply via Torc Robotics career portal for perception or autonomous systems intern tracks.",
+          "Highlight mathematical modeling (D-H parameters) and Python/C++ vision stacks in resume summary.",
+          "Reach out directly to autonomous perception recruiters based in India via LinkedIn."
+        ]
+      },
+      {
+        "role_title": "Robotics Software & Kinematics Intern",
+        "company_name": "Sastrar Robotics",
+        "location": "Kochi / Bengaluru, India",
+        "apply_url": "https://sastrarobotics.com/careers",
+        "ats_match_score": 91,
+        "lead_project_to_pitch": "3-DOF Manipulator Forward Kinematics (D-H Formulation)",
+        "why_it_matches": "Sastrar builds high-precision robotic testing arms and tactile automation systems that require exact kinematic transforms and embedded joint control.",
+        "tailored_resume_bullet": "Derived analytic 3-DOF Denavit-Hartenberg transformation matrices in Python and mapped joint angle outputs directly to embedded servo trajectory controllers.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Sastrar%20Robotics%20Founding%20Engineer",
+        "cold_dm_template": "Hi! I saw Sastrar's precision manipulator platforms. I have implemented analytic 3-DOF D-H kinematics coupled with real-time microcontroller control. Would love to explore an engineering internship role with your team.",
+        "step_by_step_apply_guide": [
+          "Send application directly to careers@sastrarobotics.com attaching the Kinematics GitHub repository.",
+          "Link live demo simulations from GitHub Pages portfolio in email body.",
+          "Follow up with technical leads on LinkedIn referencing current manipulator trajectory accuracy challenges."
+        ]
+      }
+    ],
+    "skill_gap_radar": "ROS 2 Humble / Iron nodes and micro-ROS on embedded targets: While bare-metal C++ ISRs demonstrate fundamental control, industry standard teams (such as Torc and Detect) demand micro-ROS agents bridging microcontrollers to high-level DDS message graphs.",
+    "daily_networking_action": "Connect with 2 Perception/Firmware engineers at Torc Robotics and Detect Technologies on LinkedIn; include a note mentioning how you handle hardware interrupts vs inference jitter in edge robotics.",
+    "day_number": 24
+  },
+  {
     "date": "November 24, 2026",
     "robotics_radar": [
       {
