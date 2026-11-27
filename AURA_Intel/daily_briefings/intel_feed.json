@@ -1,5 +1,100 @@
 [
   {
+    "date": "November 27, 2026",
+    "robotics_radar": [
+      {
+        "headline": "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots",
+        "company_or_lab": "Boston Dynamics & NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkhjOG5HazEwY1FCQzJvR2xDVmRtUy01aUtOVUlMakpILWM5YkMxOXNpRWVub3ZEZXRNbWZtWTZNQmdfbldWUFJ4VzZQREZOSy1FVGtXYkNxZXYzcFhxMHYxQ29zVTNhOXBsSEhnUnMtQnVBRW5uMDNxTjhYemRLd0xiSFZ4dXVTRlE?oc=5",
+        "engineering_breakdown": [
+          "Integrating NVIDIA Isaac Sim acceleration libraries directly into Atlas humanoid simulation pipelines.",
+          "Deploying low-latency neural policy controllers onto Jetson Orin edge modules for real-time balance correction.",
+          "Establishing unified hardware-in-the-loop (HIL) benchmarks for dynamic humanoid locomotion."
+        ],
+        "relevance_to_uday": "Validates the industry trend of pairing high-level neural networks with ultra-fast edge compute, highlighting the necessity of Uday's ESP32 C++ ISR low-latency experience."
+      },
+      {
+        "headline": "Boston Dynamics\u2019 next-gen humanoid robot will have Google DeepMind DNA",
+        "company_or_lab": "Boston Dynamics & Google DeepMind",
+        "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzJ6X3VXQW91VU5FdkZDMnhpTG9nV3I5SVNjQWhOSEY2Z3UyMW1PYUo4enNaX0pKTkwwTTg1eE0xeTNlXzRJYUZUanF2NFVVZHNia1dNcjF6WlV3ZTBrdENnV191czBwTXRScVVpR2d3LWJfQWNIT0NYbHcxM1VZUi1pall3enRFSHpqR19uSGZlSER3UlpUWWlrb1ZUUlozdXZoOG5oaUg?oc=5",
+        "engineering_breakdown": [
+          "Embedding DeepMind Vision-Language-Action (VLA) foundation models directly into physical humanoid execution units.",
+          "Translating multi-modal vision transformer outputs into joint-level torque control commands.",
+          "Developing real-time feedback channels to correct spatial trajectories dynamically during active tasks."
+        ],
+        "relevance_to_uday": "Bridges real-time pose estimation (like Uday's YOLOv8-Pose setup) with physical dynamic actuation systems."
+      },
+      {
+        "headline": "32 Robotics Companies and Startups on the Forefront of Innovation 2026",
+        "company_or_lab": "Built In",
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RX3B5WDFKRk5GQlpMSXNSWEcxSVYybXFEOU1RdVhIbHpJemcxN3IwNG9yTmphRWxjZDFIeHpQYm9jc1RjaEN5N25lTmEtWm1rUXRaRTZOQ1BkTmVzSDZVZ3hSUDY3dw?oc=5",
+        "engineering_breakdown": [
+          "Surging deployment of autonomous mobile robots (AMRs) using heterogeneous compute architectures.",
+          "Standardization of lightweight C++ perception middleware for microcontrollers and edge platforms.",
+          "Increased emphasis on safety-critical hardware interrupts for collaborative workplace robotics."
+        ],
+        "relevance_to_uday": "Demonstrates high market demand across international startups for robotics engineers capable of handling both vision pipelines and embedded C++ hardware."
+      }
+    ],
+    "linkedin_post_draft": "Humanoid robotics is evolving fast! The latest collaborations between Boston Dynamics, NVIDIA, and Google DeepMind highlight a core truth in modern engineering: foundation AI models are only as good as the low-latency hardware execution underneath them.\n\nWhether running VLA models for complex object manipulation or processing real-time pose estimates on edge devices, zero-latency interrupt handling and precise kinematic control remain fundamental.\n\nIn my project AuraReflex, I explored how hardware-level C++ ISRs on the ESP32 can drastically minimize response latency for sensor-driven actuation. Combining low-level firmware optimizations with real-time vision algorithms (YOLOv8-Pose + OpenCV) proves that true autonomy happens at the hardware-software boundary.\n\nExcited to see where edge AI and robotics hardware converge next!\n\nPortfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/\n#Robotics #EmbeddedSystems #EdgeAI #HumanoidRobotics #ComputerVision #CPP #ESP32",
+    "matched_internships": [
+      {
+        "role_title": "Autonomous Mobile Robot (AMR) Embedded & Perception Intern",
+        "company_name": "Ati Motors",
+        "location": "Bengaluru, India",
+        "apply_url": "https://www.atimotors.com/careers",
+        "ats_match_score": 92,
+        "lead_project_to_pitch": "AuraReflex ESP32 C++ ISR & 3-DOF Kinematics",
+        "why_it_matches": "Ati Motors builds autonomous industrial AMRs. Uday's expertise in C++ firmware, hardware interrupts (ISRs), and kinematic control directly aligns with their core vehicle controller stack.",
+        "tailored_resume_bullet": "Engineered low-latency C++ interrupt service routines (ISRs) on ESP32 microcontrollers (AuraReflex), ensuring sub-millisecond sensor feedback processing for motion control hardware.",
+        "linkedin_people_search_url": "https://www.linkedin.com/company/ati-motors/people/",
+        "cold_dm_template": "Hi! Built an ESP32 ISR firmware suite (AuraReflex) & 3-DOF kinematic solver in C++. Admire Ati Motors' AMR work. Would love to contribute to your embedded perception team as an intern! Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "1. Open Ati Motors' official careers page.",
+          "2. Submit CV highlighting ESP32 C++ ISR and 3-DOF kinematic modeling experience.",
+          "3. Send cold DM to Lead Firmware Engineer on LinkedIn referencing your GitHub C++ implementation."
+        ]
+      },
+      {
+        "role_title": "Embedded Firmware & Edge AI Intern",
+        "company_name": "Unbox Robotics",
+        "location": "Pune, India (Hybrid/Remote options)",
+        "apply_url": "https://unboxrobotics.com/careers",
+        "ats_match_score": 90,
+        "lead_project_to_pitch": "Emergency Patient Monitoring (YOLOv8-Pose + OpenCV)",
+        "why_it_matches": "Unbox Robotics builds high-speed robotic sorting systems. They require engineers fluent in both C++ microcontrollers and real-time edge computer vision pipelines.",
+        "tailored_resume_bullet": "Developed an edge-ready vision pipeline using YOLOv8-Pose and OpenCV integrated with a CustomTkinter control dashboard for continuous real-time pose tracking.",
+        "linkedin_people_search_url": "https://www.linkedin.com/company/unbox-robotics/people/",
+        "cold_dm_template": "Hi! I engineer edge CV models (YOLOv8-Pose) & C++ micro-controller firmware. Impressed by Unbox Robotics' parcel sorting AMRs. Would love to explore internship opportunities on your tech team. Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "1. Go to Unbox Robotics career portal.",
+          "2. Customize application emphasizing custom vision inference and embedded control GUI.",
+          "3. Connect with Technical Leads via LinkedIn using the tailored DM."
+        ]
+      },
+      {
+        "role_title": "Robotics Vision & Edge AI Intern",
+        "company_name": "Enord",
+        "location": "Greater Noida / Remote, India",
+        "apply_url": "https://enord.ai/careers",
+        "ats_match_score": 88,
+        "lead_project_to_pitch": "Emergency Patient Monitoring & 3-DOF D-H Kinematics",
+        "why_it_matches": "Enord develops AI-driven autonomous drones requiring onboard real-time vision processing and dynamic spatial trajectory calculation.",
+        "tailored_resume_bullet": "Formulated D-H parameter kinematic matrices and optimized OpenCV vision processing algorithms to achieve robust spatial state estimation for physical hardware.",
+        "linkedin_people_search_url": "https://www.linkedin.com/company/enord-ai/people/",
+        "cold_dm_template": "Hi! I build real-time vision pipelines (YOLOv8/OpenCV) & low-level hardware controllers. Very keen on Enord's drone autonomy tech. Would love to intern with your perception team! Portfolio: https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/",
+        "step_by_step_apply_guide": [
+          "1. Access Enord careers page.",
+          "2. Upload CV tailored toward computer vision and kinematic coordinate tracking.",
+          "3. Reach out to Enord AI Engineers on LinkedIn."
+        ]
+      }
+    ],
+    "skill_gap_radar": "ROS 2 (Robot Operating System) node architecture & micro-ROS integration for ESP32 devices to bridge real-time low-level ISR handling with industrial ROS network graphs.",
+    "daily_networking_action": "Reach out to 2 Firmware Engineers at Ati Motors and 1 Edge AI Engineer at Unbox Robotics via LinkedIn. Include portfolio link showcasing AuraReflex C++ code.",
+    "day_number": 26
+  },
+  {
     "date": "November 26, 2026",
     "day_number": 25,
     "robotics_radar": [
