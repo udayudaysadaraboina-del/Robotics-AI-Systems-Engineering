@@ -1,5 +1,100 @@
 [
   {
+    "date": "November 28, 2026",
+    "robotics_radar": [
+      {
+        "headline": "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots",
+        "company_or_lab": "Boston Dynamics & NVIDIA",
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkhjOG5HazEwY1FCQzJvR2xDVmRtUy01aUtOVUlMakpILWM5YkMxOXNpRWVub3ZEZXRNbWZtWTZNQmdfbldWUFJ4VzZQREZOSy1FVGtXYkNxZXYzcFhxMHYxQ29zVTNhOXBsSEhnUnMtQnVBRW5uMDNxTjhYemRLd0xiSFZ4dXVTRlE?oc=5",
+        "engineering_breakdown": [
+          "Leveraging NVIDIA Jetson Thor edge computing architecture alongside Omniverse simulation pipelines for whole-body dynamic locomotion.",
+          "Synthesizing high-frequency Reinforcement Learning policies directly on-chip to achieve sub-millisecond tactile and joint torque reactions.",
+          "Bridging physics-based kinematic motion generation with generative spatial vision models for zero-shot environmental manipulation."
+        ],
+        "relevance_to_uday": "Demonstrates the necessity of marrying high-rate embedded motor loops (such as ESP32 bare-metal ISR pipelines) with deep spatial perception frameworks."
+      },
+      {
+        "headline": "Boston Dynamics\u2019 Next-Gen Humanoid Robot Integrates Google DeepMind Vision-Language-Action Models",
+        "company_or_lab": "Boston Dynamics & Google DeepMind",
+        "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzJ6X3VXQW91VU5FdkZDMnhpTG9nV3I5SVNjQWhOSEY2Z3UyMW1PYUo4enNaX0pKTkwwTTg1eE0xeTNlXzRJYUZUanF2NFVVZHNia1dNcjF6WlV3ZTBrdENnV191czBwTXRScVVpR2d3LWJfQWNIT0NYbHcxM1VZUi1pall3enRFSHpqR19uSGZlSER3UlpUWWlrb1ZUUlozdXZoOG5oaUg?oc=5",
+        "engineering_breakdown": [
+          "Embedding foundational VLA (Vision-Language-Action) architectures into real-time trajectory optimization stacks for Atlas humanoids.",
+          "Translating multi-modal semantic queries into analytical inverse kinematics and force-torque vector allocations dynamically.",
+          "Refining robust safety-critical hardware interrupts that override high-level neural trajectory proposals during anomalous contact forces."
+        ],
+        "relevance_to_uday": "Mirrors Uday's multi-layered architecture where high-level vision (YOLOv8-Pose) drives deterministic low-level actuators with interrupt-driven emergency aborts."
+      },
+      {
+        "headline": "32 Robotics Companies and Startups on the Forefront of Innovation 2026",
+        "company_or_lab": "Built In Industry Intelligence",
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RX3B5WDFKRk5GQlpMSXNSWEcxSVYybXFEOU1RdVhIbHpJemcxN3IwNG9yTmphRWxjZDFIeHpQYm9jc1RjaEN5N25lTmEtWm1rUXRaRTZOQ1BkTmVzSDZVZ3hSUDY3dw?oc=5",
+        "engineering_breakdown": [
+          "Rapid market shift toward hybrid autonomous systems combining deterministic microcontrollers with Edge-AI coprocessors.",
+          "Increased commercial deployment of warehouse AMRs and surgical robotic assistants requiring high MTBF and verified fail-safe routines.",
+          "Standardization of hardware-in-the-loop (HIL) testing rigs to validate sensor fusion and kinematics under variable payload conditions."
+        ],
+        "relevance_to_uday": "Validates the high enterprise demand for dual-competency engineers capable of both bare-metal C++ embedded firmware and OpenCV/PyTorch perception."
+      }
+    ],
+    "linkedin_post_draft": "The humanoid robotics stack is consolidating around two core layers: high-level semantic perception and deterministic real-time hardware execution.\n\nWith Boston Dynamics integrating NVIDIA's compute and DeepMind's VLA intelligence into next-gen platforms, the robotics paradigm has never been clearer:\n\n1. High-level vision models (VLA, Pose, Spatial Foundation Models) interpret intent and plan paths at 10-30 Hz.\n2. Low-level embedded controllers must run at 1000+ Hz, handling motor commutation, D-H kinematic transforms, and fail-safe interrupt routines.\n\nNo matter how smart the AI planner is, real-world deployment collapses without deterministic edge execution. If high-level vision misinterprets a pose, bare-metal hardware interrupts (ISRs) must instantaneously prevent mechanical collisions.\n\nWhile developing my ESP32-based AuraReflex and camera-driven patient safety monitoring systems, designing low-latency communication between OpenCV pose pipelines and C++ firmware was the most critical challenge.\n\nDeterministic safety + adaptive vision is where robust physical AI lives.\n\n#Robotics #EmbeddedSystems #ComputerVision #ControlSystems #Humanoids #AI #EdgeAI #Mechatronics",
+    "matched_internships": [
+      {
+        "role_title": "Robotics & Firmware Engineering Intern",
+        "company_name": "GridBots Technologies",
+        "location": "Ahmedabad, India (On-site / Hybrid)",
+        "apply_url": "https://www.gridbots.com/careers.html",
+        "ats_match_score": 93,
+        "lead_project_to_pitch": "AuraReflex (ESP32 C++ Deterministic ISR & Actuation Pipeline)",
+        "why_it_matches": "GridBots engineers industrial machine vision and robotic arms. Uday's embedded C++ interrupt background and D-H kinematic math map directly to their actuator firmware requirements.",
+        "tailored_resume_bullet": "Engineered deterministic ESP32 C++ firmware with hardware ISRs, achieving sub-5ms motor response latencies and zero-lag serial command parsing for multi-axis kinematic systems.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Gridbots%20Robotics%20Engineering%20Lead",
+        "cold_dm_template": "Hi! I build real-time C++ ISR firmware on ESP32 & 3-DOF kinematic controllers (tested in AuraReflex) alongside OpenCV vision. I noticed GridBots' industrial robotics scale\u2014are you open to an intern who bridges embedded motor control with real-time perception?",
+        "step_by_step_apply_guide": [
+          "Submit resume via GridBots official careers portal highlighting ESP32 C++ and robotics kinematic modeling.",
+          "Attach portfolio link (https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/) in the cover letter field.",
+          "Send the tailored cold DM to the Head of Engineering or Robotics Lead on LinkedIn."
+        ]
+      },
+      {
+        "role_title": "Computer Vision & Edge-AI Intern",
+        "company_name": "Gatik AI",
+        "location": "Bengaluru, India (Hybrid)",
+        "apply_url": "https://gatik.ai/careers/",
+        "ats_match_score": 91,
+        "lead_project_to_pitch": "Emergency Patient Monitoring (YOLOv8-Pose + OpenCV Multi-threading)",
+        "why_it_matches": "Gatik develops autonomous middle-mile logistics requiring robust perception and edge tracking. Uday's expertise with YOLOv8-Pose and real-time OpenCV optimization matches their sensor pipeline needs.",
+        "tailored_resume_bullet": "Designed an edge vision pipeline using YOLOv8-Pose and OpenCV, achieving 30+ FPS pose estimation with custom multithreading and fail-safe patient state anomaly triggers.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Gatik%20Bengaluru%20Autonomous%20Systems%20Recruiter",
+        "cold_dm_template": "Hi! I develop real-time YOLOv8-Pose and OpenCV multithreaded tracking pipelines (30+ FPS) interfaced to embedded safety loops. Deeply inspired by Gatik's autonomous logistics\u2014could we discuss opportunities for an Edge-AI & Perception Intern?",
+        "step_by_step_apply_guide": [
+          "Apply via Gatik's official career portal under Autonomous Systems / Perception engineering openings.",
+          "Reference GitHub repo 'Robotics_HQ' demonstrating YOLOv8 tracking and pose optimization.",
+          "Engage with Gatik autonomous vehicle engineers on LinkedIn referencing their perception stack."
+        ]
+      },
+      {
+        "role_title": "Embedded Robotics Systems Intern",
+        "company_name": "EyeROV (IROV Technologies)",
+        "location": "Kochi, India (Hybrid)",
+        "apply_url": "https://eyerov.com/career",
+        "ats_match_score": 89,
+        "lead_project_to_pitch": "3-DOF D-H Kinematics & CustomTkinter Teleoperation Suite",
+        "why_it_matches": "EyeROV builds underwater robotic vehicles requiring micro-actuator telemetry, kinematics, and robust onboard firmware. Uday's blend of D-H modeling and low-latency C++ firmware fits their ROV control team.",
+        "tailored_resume_bullet": "Formulated analytical 3-DOF Denavit-Hartenberg kinematic algorithms coupled with a CustomTkinter telemetry interface for precision actuator vectoring and position feedback.",
+        "linkedin_people_search_url": "https://www.linkedin.com/search/results/people/?keywords=EyeROV%20Embedded%20Hardware%20Lead",
+        "cold_dm_template": "Hi! I design 3-DOF kinematic math models and deterministic ESP32 C++ firmware for robotic systems. I admire EyeROV's marine inspection platforms\u2014are you seeking an intern with hands-on kinematics, GUI telemetry, and microcontroller experience?",
+        "step_by_step_apply_guide": [
+          "Head to EyeROV's career board and fill out the engineering application for firmware/robotics.",
+          "Feature the portfolio link demonstrating D-H matrices and GUI hardware communication.",
+          "Follow up via LinkedIn with their engineering management using the tailored cold message."
+        ]
+      }
+    ],
+    "skill_gap_radar": "Target ROS 2 (Humble) hardware-in-the-loop interfaces: While ESP32 bare-metal C++ ISRs handle low-level actuator control, mastering micro-ROS (e.g., micro-XRCE-DDS client on ESP32) will seamlessly link low-latency firmware with industry-standard ROS 2 perception nodes.",
+    "daily_networking_action": "Reach out to 2 Firmware Leads at GridBots and 2 Autonomous Systems Engineers at Gatik on LinkedIn. Attach your portfolio link (https://udayudaysadaraboina-del.github.io/Robotics-AI-Systems-Engineering/) with a 2-sentence note highlighting deterministic ESP32 ISR timing.",
+    "day_number": 27
+  },
+  {
     "date": "November 27, 2026",
     "robotics_radar": [
       {

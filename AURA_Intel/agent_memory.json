@@ -1,5 +1,5 @@
 {
-  "days_completed": 26,
+  "days_completed": 27,
   "seen_job_hashes": [
     "a8868f8a127e23e37a3d818b9fa8951c",
     "6b5ec96d4e463b3f6cf3da74d99a2d2b",
@@ -78,7 +78,10 @@
     "19d7fbb0b72ba90e4f52583e85cbe959",
     "482f3a4f48a97c2da1874e5d3d12f405",
     "54593e282959419637b0aecd59424fe1",
-    "98c61522be6e0b04b2f1950abeaeed8c"
+    "98c61522be6e0b04b2f1950abeaeed8c",
+    "1b079c1364f205e6504fc91e8ac03582",
+    "8116914b468514dbb7c93b62dfc00bc3",
+    "0e9a9cc4ec0ef8960437006a39d01e52"
   ],
   "seen_news_hashes": [
     "9a955abec21d7e08dee1ac16faa45f13",
@@ -158,12 +161,12 @@
     "f6e326a6cd790a9a41b38488fb4fbe0e",
     "8afa3cc042c53ecad7b7c23c1c4d9d0b",
     "5b6fd934a8e3d13874edae9a50d6c924",
+    "496034f3681e1f5109177788efd88beb",
+    "8afa3cc042c53ecad7b7c23c1c4d9d0b",
+    "40a48a07084d9c266dca6ac4f40aefb3",
     "496034f3681e1f5109177788efd88beb"
   ],
   "recent_companies": [
-    "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
-    "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
-    "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
     "CynLr (Cybernetics Laboratory) (Robotics & Embedded Firmware Intern)",
     "Addverb Technologies (Embedded Systems & Edge-AI Intern)",
@@ -200,12 +203,12 @@
     "Genrobotics / Mowito (Computer Vision & Autonomous Systems Intern)",
     "Ati Motors (Autonomous Mobile Robot (AMR) Embedded & Perception Intern)",
     "Unbox Robotics (Embedded Firmware & Edge AI Intern)",
-    "Enord (Robotics Vision & Edge AI Intern)"
+    "Enord (Robotics Vision & Edge AI Intern)",
+    "GridBots Technologies (Robotics & Firmware Engineering Intern)",
+    "Gatik AI (Computer Vision & Edge-AI Intern)",
+    "EyeROV (IROV Technologies) (Embedded Robotics Systems Intern)"
   ],
   "recent_headlines": [
-    "Boston Dynamics' Atlas robot performs a 360-degree jump on wheels - Interesting Engineering",
-    "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
-    "DeepMind Unveils Gemini Robotics 2.5 With Higher Success Rates for Factory Humanoids: 8 outlets compared - NewsCord",
     "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots - Boston Dynamics",
     "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI | NVIDIA Technical Blog - NVIDIA Developer",
     "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots - Boston Dynamics",
@@ -242,6 +245,9 @@
     "Boston Dynamics Working with Nvidia on Next-Gen Humanoid Robots - Automation World",
     "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots",
     "Boston Dynamics\u2019 next-gen humanoid robot will have Google DeepMind DNA",
+    "32 Robotics Companies and Startups on the Forefront of Innovation 2026",
+    "Boston Dynamics Expands Collaboration with NVIDIA to Accelerate AI Capabilities in Humanoid Robots",
+    "Boston Dynamics\u2019 Next-Gen Humanoid Robot Integrates Google DeepMind Vision-Language-Action Models",
     "32 Robotics Companies and Startups on the Forefront of Innovation 2026"
   ]
 }
